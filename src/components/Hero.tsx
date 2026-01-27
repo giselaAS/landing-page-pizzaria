@@ -40,7 +40,10 @@ export function Hero() {
                         size="lg"
                         className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-6 text-lg"
                     >
-                        <a href="#menu">
+                        <a 
+                            href="#menu"
+                            className="scroll-smooth"
+                        >
                             Ver Cardápio
                         </a>
                     </Button>
